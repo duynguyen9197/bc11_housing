@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+p {
+  /* font-weight: bold; */
+  font-size: 0.9rem;
+}
+/* HEADER */
+header {
+  height: 100px;
+  background-color: rgba(25, 25, 25, 0.8);
+  /* filter: opacity(0.5); */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  position: fixed;
+  width: 100%;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+.Housing span {
+  color: #00cdce;
+}
+.Housing {
+  font-size: 3rem;
+  font-weight: bolder;
+  padding: 1rem;
+}
+nav ul li {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-right: 3rem;
+  font-weight: bold;
+  border-bottom: 5px solid white;
+  padding-bottom: 1rem;
+}
+
+/* HEADER END */
+/* Carousel */
+#carousel {
+  background-image: url(/images/b1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.carousel_text {
+  color: white;
+  text-align: center;
+}
+.carousel_text h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+.carousel_text p {
+  color: gray;
+  /* text-indent: 1rem; */
+
+  padding-top: 1rem;
+}
+/* Carousel END */
+/* About */
+.title {
+  margin: 3rem auto;
+  width: 80%;
+  height: 410px;
+  text-align: center;
+}
+.h2 {
+  color: black;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.About_container h3 {
+  color: #00cdce;
+  font-size: 2rem;
+}
+.About_list {
+  display: flex;
+  margin: 2rem 0;
+}
+.About_container p {
+  color: black;
+  margin-top: 0.5rem;
+  line-height: 1.5rem;
+}
+.About_item p:last-child {
+  color: gray;
+}
+.About_icon {
+  border: 1px rgb(126, 126, 126) solid;
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  left: 9rem;
+  border-radius: 50%;
+}
+.About_icon:hover {
+  background-color: #00cdce;
+  color: white;
+}
+.About_icon i {
+  position: relative;
+  top: 20px;
+  font-size: 1.5rem;
+}
+/* About end */
+/* STATS  */
+#Stats {
+  background-color: #00cdce;
+  height: 250px;
+}
+.Stats_list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Stats_item p {
+  font-size: 3rem;
+  color: white;
+  letter-spacing: 5px;
+}
+.Stats_item span {
+  color: black;
+  font-size: 2rem;
+}
+/* STATS end */
+/* BLog */
+.Blog_container h2 {
+  margin-bottom: 2rem;
+}
+.Blog_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* box-sizing: border-box; */
+  overflow: hidden;
+}
+.Blog_item img {
+  width: 100%;
+  height: 100%;
+}
+.Blog_item {
+  background-color: #dadada;
+  width: 31%;
+}
+.Blog_text {
+  text-align: left;
+  padding: 1rem;
+  color: black;
+  line-height: 1.5rem;
+}
+.Blog_text p {
+  font-size: 1.5rem;
+  color: #00cdce;
+  margin-bottom: 1rem;
+}
+.Blog_text button {
+  margin-top: 1rem;
+}
+.btn_readmore {
+  padding: 10px;
+  width: 9rem;
+  background-color: black;
+  color: #00cdce;
+  border: none;
+  font-weight: bold;
+}
+/* BLog end */
